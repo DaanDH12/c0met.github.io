@@ -1,5 +1,5 @@
 <center>
-  <a href="#"><img src="https://imgur.com/zHqfowh" alt="Logo"></a>
+  <a href="#"><img src="https://i.imgur.com/zHqfowh.png" alt="Logo"></a>
 </center>
 
 This jailbreak is by the community, and was developed open source.
