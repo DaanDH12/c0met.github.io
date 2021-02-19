@@ -1,29 +1,26 @@
 <center>
-  <a href="#"><img src="https://i.imgur.com/zHqfowh.png" alt="Logo" width="40%"></a>
+  <a href="#"><img src="https://i.imgur.com/5I8EKUO.png" alt="Logo" width="40%"></a>
 </center>
 
-This jailbreak is by the community, and was developed open source.
+project for the c0met jailbreak. 
+This jailbreak is an open source project.
 
-### Currently implemented: 
-setuid(0); <br />
-setgid(0); <br />
-granted .root<br />
-sandbox custom r/w perms.<br />
-posix_spawn ret 0
-amfid_slot patch
+### Supported devices:
 
-#### Output <br />
-amfid_slot - > 16549200728742792240Cannot spray rthdr at 0. Error: 9 <br />
-Cannot spray rthdr at 0. Error: 9 <br />
+All iOS devices from 14.0 - 14.3
 
-amfid_slot - > 16549200728742792240prison break :slight_smile: <br />
-... <br />
+### Status:
+
+Exploit: Working
+Privilege Escalation: Working
+
 
 # Special Thanks to
-@maverickdev1 - utility development<br />
+@maverickdev1 - Utility development<br />
 @ModernPwner - CVE (cicuta_virosa)<br />
-@brandonplank - sandbox r/w priviliges
-
+@brandonplank - Sandbox r/w priviliges <br />
+@daandh12 - Web Development and READ.ME <br />
+@mattso - Discord Supporter 
 
 join us -> https://discord.gg/ey6FAabR46
 
