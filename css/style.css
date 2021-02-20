@@ -1,19 +1,19 @@
-* {  
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-   font-size: 10px;
-   font-family: "Lato" , Arial , sans-serif;
+    font-size: 10px;
+    font-family: "Lato", Arial, sans-serif;
 }
 
 section {
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg,#556772, #0000);
+    background: linear-gradient(-45deg, #556772, #0000);
     background-size: 400% 400%;
     position: relative;
     animation: change 50s ease-in-out infinite;
@@ -23,9 +23,11 @@ section {
     0% {
         background-position: 0 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0 50%;
     }
@@ -35,15 +37,13 @@ section {
 body {
     margin: 0;
     background: #222;
-    font-family: 'Work Sans' , sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-
-
 }
 
 header {
@@ -70,7 +70,6 @@ nav {
 }
 
 nav ul {
-
     margin: 0;
     padding: 0;
     list-style: none;
@@ -80,7 +79,6 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
-
     position: relative;
 }
 
@@ -95,7 +93,7 @@ nav a {
 }
 
 nav a:hover {
-background-color: #1261A0;
+    background-color: #1261A0;
 }
 
 .centername {
@@ -114,46 +112,27 @@ background-color: #1261A0;
 }
 
 .mockupfront {
-
-display: flex;
-margin-right: 50%;
-width: 20%;
-float: left;
-margin-left: 25%;
-margin-top: 20px;
+    display: flex;
+    margin-right: 50%;
+    width: 20%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
 }
 
 .maintext {
-
-display: flex;
-
+    display: flex;
 }
-
 
 .column {
-
     columns: 10px 2;
-    
-    
-    }
-    
-li img {
-
-width: 10%;
-
-
 }
 
+li img {
+    width: 10%;
+}
 
 li {
-
-display: flex;
-align-items: center;
-
-
-
+    display: flex;
+    align-items: center;
 }
-
-
-
-
