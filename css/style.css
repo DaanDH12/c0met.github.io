@@ -112,3 +112,48 @@ background-color: #1261A0;
     text-align: center;
     font-size: 60px;
 }
+
+.mockupfront {
+
+display: flex;
+margin-right: 50%;
+width: 20%;
+float: left;
+margin-left: 25%;
+margin-top: 20px;
+}
+
+.maintext {
+
+display: flex;
+
+}
+
+
+.column {
+
+    columns: 10px 2;
+    
+    
+    }
+    
+li img {
+
+width: 10%;
+
+
+}
+
+
+li {
+
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+
+
