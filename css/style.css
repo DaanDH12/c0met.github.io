@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -14,6 +15,7 @@ html {
     margin-left: auto;
     max-width: 1200px;
     padding: 1em;
+    justify-content: center;
 }
 
 body {
@@ -25,13 +27,16 @@ body {
     background-size: 400% 400%;
     animation: change 50s ease-in-out infinite;
 }
+
 @keyframes change {
     0% {
         background-position: 0 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0 50%;
     }
@@ -65,8 +70,17 @@ a.downloadbtn:hover {
 
 .mockupfront {
     width: 30%;
+    height: auto;
+    float: left;
+    margin: auto;
+}
+
+.mockupfront img {
+    width: 100%;
+    height: auto;
     float: left;
 }
+
 .relative {
     display: flex;
     align-items: center;
@@ -76,11 +90,11 @@ ul {
     padding: 0;
 }
 
-li > img {
-    width: 15%;
+li>img {
+    width: 10%;
 }
 
-li > h2 {
+li>h2 {
     margin-left: 16px;
     margin-right: 16px;
     width: 25%;
@@ -92,26 +106,37 @@ li {
     padding: 10px;
 }
 
-li > p {
+li>p {
     text-align: right;
     width: 100%;
 }
 
-/* .settingsicon {
-    transition: 0.5s ease-in-out all;
-} */
-li > img {
+li>img {
     transition: 0.5s ease-in-out all;
 }
-li:hover > .settingsicon {
+
+li:hover>.settingsicon {
     transform: rotate(60deg);
 }
-li:hover > img {
+
+li:hover>img {
     transform: scale(1.1);
 }
+
 .shadow {
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=5, OffY=5, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=5, OffY=5, Color='#444')";
+}
+
+@media (max-width: 800px) {
+    .ways-comet {
+        flex-direction: column;
+    }
+
+    .ways-comet>.mockupfront {
+        width: 75%;
+        max-width: 400px;
+    }
 }
