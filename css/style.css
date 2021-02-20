@@ -16,6 +16,7 @@ html {
     max-width: 1200px;
     padding: 1em;
     justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -84,6 +85,7 @@ a.downloadbtn:hover {
 .relative {
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 ul {
@@ -103,11 +105,16 @@ li>h2 {
 li {
     display: flex;
     align-items: center;
-    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+hr {
+    margin: 2em 0;
 }
 
 li>p {
-    text-align: right;
     width: 100%;
 }
 
