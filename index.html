@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,48 +8,56 @@
     <link rel="stylesheet" href="css/style.css">
     <title>C0met</title>
 </head>
-<header>
-<div class= "container">
 
-<img src="images/logo2.png" alt="logo" class="logo">
-
-<nav>
-<ul>
-<li><a href="#">Download</a></li>
-</ul>
-</nav>
- 
-
-</div>
-</header>
 <body>
- <section class= "ways-comet">
-        <ul>
-            <li>
-                <img src= "images/settingsicon.jpeg" alt="settings" class="settingsicon">
-                <h2><strong>Stable</strong></h2>
-                <p class= "column">c0met is tested multiple times and runs stable and reliable. c0met supports all iOS versions from iOS 14.0-14.3</p>
-            </li>
-            <li>
-                <img src= "images/githubicon.jpeg" alt="github" class="githubsicon">
-                <h2>Open Source</h2>
-                <p>C0met is completely open source, fully functional and operational. We did it for the community</p>
-            </li>
-            <li>
-                <img src= "images/designicon.jpeg" alt="design" class="designicon">
-                <h2>Design</h2>
-                <p>The UI of c0met is breathtaking, and so is the jailbreak itself. A cleaner interface is not lacking in fucntionality</p>
-            </li>
-        
-        
+    <div class="header">
+        <img src="images/logo2.png" alt="logo" class="logo">
+        <a class="downloadbtn" href="#">Download</a>
+    </div>
+    <div class="ways-comet">
+        <div class="relative">
+            <ul>
+                <li>
+                    <img src="images/gearicon.png" alt="settings" class="settingsicon shadow">
+                    <h2>Stable</h2>
+                    <p>c0met is tested multiple times and runs stable and reliable. c0met supports all iOS
+                        versions from iOS 14.0-14.3</p>
+                </li>
+                <hr>
+                <li>
+                    <img src="images/githubicon.png" alt="github" class="githubicon shadow">
+                    <h2>Open Source</h2>
+                    <p>C0met is completely open source, fully functional and operational. We did it for the community
+                    </p>
+                </li>
+                <hr>
+                <li>
+                    <img src="images/designicon.png" alt="design" class="designicon shadow">
+                    <h2>Design</h2>
+                    <p>The UI of c0met is breathtaking, and so is the jailbreak itself. A cleaner interface is not
+                        lacking
+                        in functionality</p>
+                </li>
+            </ul>
+        </div>
+        <div class="mockupfront">
+            <img class="shadow" src="images/mockupfront.png" alt="App design">
+        </div>
+    </div>
 
 
-
-
-
-
-        </ul>
- </section> 
- 
+    <svg height="0" xmlns="http://www.w3.org/2000/svg">
+        <filter id="drop-shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+            <feOffset dx="5" dy="5" result="offsetblur" />
+            <feFlood flood-color="rgba(0,0,0,0.5)" />
+            <feComposite in2="offsetblur" operator="in" />
+            <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </svg>
 </body>
+
 </html>
